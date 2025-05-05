@@ -1,0 +1,7 @@
+{
+	"namespace": {
+		"scope": "csharp",
+		"prefix": "namespace",
+		"body": "namespace ${RELATIVE_FILEPATH/[\\/\\\\]\\w+\\.\\w+$|(\\w+)(?:[\\/\\\\]\\w+\\.\\w+$)|(\\w+(\\.\\w+)?)|\\.|[\\/\\\\]/${2}${2:+.}${1}/g};"
+	}
+}
