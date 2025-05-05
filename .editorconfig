@@ -1,0 +1,36 @@
+root = true
+
+[*.{cs,vb}]
+
+insert_final_newline = true
+
+csharp_new_line_before_else = false
+
+# IDE0003: Remove qualification
+dotnet_style_qualification_for_event = true
+dotnet_style_qualification_for_field = true
+dotnet_style_qualification_for_method = true
+dotnet_style_qualification_for_property = true
+
+# IDE0008: Use explicit type
+dotnet_diagnostic.IDE0008.severity = warning
+csharp_style_var_for_built_in_types = false
+csharp_style_var_when_type_is_apparent = false
+
+# IDE0009: Member access should be qualified.
+dotnet_diagnostic.IDE0009.severity = warning
+
+# IDE0090: Use 'new(...)'
+dotnet_diagnostic.IDE0090.severity = warning
+
+# IDE0028: Simplify collection initialization
+dotnet_diagnostic.IDE0028.severity = warning
+
+# CA1852: Seal internal types
+dotnet_diagnostic.CA1852.severity = warning
+
+# IDE0130: Namespace does not match folder structure
+dotnet_diagnostic.IDE0130.severity = error
+
+# CA1859: Use concrete types when possible for improved performance
+dotnet_diagnostic.CA1859.severity = error

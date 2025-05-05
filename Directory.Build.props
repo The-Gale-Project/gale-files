@@ -1,0 +1,10 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>13</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <BaseOutputPath>../build/bin/$(MSBuildProjectName)</BaseOutputPath>
+    <BaseIntermediateOutputPath>../build/obj/$(MSBuildProjectName)</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>
