@@ -1,4 +1,4 @@
-namespace Gale.Files.Graphics.DMA.Protocol;
+namespace Gale.Files.Graphics.DMA;
 
 public enum DmaType
 {
