@@ -327,8 +327,9 @@ public readonly struct MappaFloorLayout : IEquatable<MappaFloorLayout>
     {
         if (mappaFloorData.Length != 32)
         {
-            throw new InvalidDataException(
-                "The mappa floor binary data must be exactly 32 bytes in length."
+            throw new ArgumentException(
+                "The mappa floor binary data must be exactly 32 bytes in length.",
+                nameof(mappaFloorData)
             );
         }
 
