@@ -26,7 +26,7 @@ public readonly struct MappaFloorLayout : IEquatable<MappaFloorLayout>
     public byte TilesetId { get; }
 
     /// <summary>
-    /// The ID of the music to play, based on a seperate table 
+    /// The ID of the music to play, based on a separate table 
     /// than the main music table.
     /// </summary>
     /// <remarks>
@@ -386,7 +386,7 @@ public readonly struct MappaFloorLayout : IEquatable<MappaFloorLayout>
     }
 
     /// <summary>
-    /// Returns the hashcode for this instance.
+    /// Returns the hash code for this instance.
     /// </summary>
     /// <returns>A 32-bit signed integer hash code.</returns>
     public override int GetHashCode()

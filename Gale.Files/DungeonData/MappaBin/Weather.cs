@@ -31,7 +31,7 @@ public enum FloorWeather : byte
     Rainy,
 
     /// <summary>
-    /// Haily weather.
+    /// Hail weather.
     /// </summary>
     Hail,
 

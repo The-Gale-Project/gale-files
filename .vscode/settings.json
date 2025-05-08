@@ -1,5 +1,11 @@
 {
     "[csharp]": {
         "editor.formatOnSave": true
-    }
+    },
+    "cSpell.words": [
+        "bitflags",
+        "kecleon",
+        "mappa",
+        "tileset"
+    ]
 }
