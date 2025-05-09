@@ -1,0 +1,739 @@
+Languages:
+  -
+    name: English
+    filename: text_e.str
+    locale: en-US
+    m2n: st_m2n_e.bin
+    n2m: st_n2m_e.bin
+    i2n: st_i2n_e.bin
+  -
+    name: French
+    filename: text_f.str
+    locale: fr-FR
+    m2n: st_m2n_f.bin
+    n2m: st_n2m_f.bin
+    i2n: st_i2n_f.bin
+  -
+    name: German
+    filename: text_g.str
+    locale: de-DE
+    m2n: st_m2n_g.bin
+    n2m: st_n2m_g.bin
+    i2n: st_i2n_g.bin
+  -
+    name: Italian
+    filename: text_i.str
+    locale: it-IT
+    m2n: st_m2n_i.bin
+    n2m: st_n2m_i.bin
+    i2n: st_i2n_i.bin
+  -
+    name: Spanish
+    filename: text_s.str
+    locale: es-ES
+    m2n: st_m2n_s.bin
+    n2m: st_n2m_s.bin
+    i2n: st_i2n_s.bin
+
+StringBlocks:
+  StringBlock:
+  -
+    name: Friend Rescue Set Phrases
+    beg: 0
+    end: 252
+  -
+    name: Friend Rescue Message Input Strings
+    beg: 252
+    end: 311
+  -
+    name: Debug Strings (Game Init)
+    beg: 311
+    end: 361
+  -
+    name: Util Strings
+    beg: 361
+    end: 366
+  -
+    name: Chapter and Special Episode Strings
+    beg: 366
+    end: 374
+  -
+    name: Explorer Ranks Names
+    beg: 374
+    end: 387
+  -
+    name: Default Menu Strings 1
+    beg: 387
+    end: 434
+  -
+    name: Default Menu Strings 2
+    beg: 434
+    end: 490
+  -
+    name: Debug Strings (Main Menu)
+    beg: 490
+    end: 502
+  -
+    name: Default Team Names
+    beg: 561
+    end: 567
+  -
+    name: Save Data Strings
+    beg: 567
+    end: 599
+  -
+    name: Prize Ticket Strings
+    beg: 599
+    end: 606
+  -
+    name: Job Debriefing Related Strings (Primary)
+    beg: 606
+    end: 621
+  -
+    name: Job Debriefing Related Strings (Secondary)
+    beg: 621
+    end: 682
+  -
+    name: Dungeon Item Action Menu Strings
+    beg: 682
+    end: 696
+  -
+    name: Gummi Feedback
+    beg: 696
+    end: 708
+  -
+    name: Dungeon Item Pickup Menu Strings
+    beg: 711
+    end: 716
+  -
+    name: Storage Space Full Strings
+    beg: 716
+    end: 726
+  -
+    name: Treasure Bag Full Strings
+    beg: 726
+    end: 735
+  -
+    name: New Recruit Full Strings
+    beg: 735
+    end: 748
+  -
+    name: Kangaskhan Storage Filter Strings
+    beg: 754
+    end: 765
+  -
+    name: Kangaskhan Storage Strings
+    beg: 781
+    end: 812
+  -
+    name: Kecleon Market Strings
+    beg: 812
+    end: 878
+  -
+    name: Duskull Bank Strings
+    beg: 878
+    end: 903
+  -
+    name: Chansey Day Care Strings
+    beg: 905
+    end: 933
+  -
+    name: Croagunk Swap Shop Strings
+    beg: 938
+    end: 976
+  -
+    name: Xatu Appraisal Strings
+    beg: 976
+    end: 1000
+  -
+    name: Electivire Link Shop Strings
+    beg: 1000
+    end: 1040
+  -
+    name: Chimecho Assembly Strings
+    beg: 1040
+    end: 1068
+  -
+    name: Luminous Spring Strings
+    beg: 1068
+    end: 1097
+  -
+    name: Diary Strings
+    beg: 1097
+    end: 1189
+  -
+    name: Level Up Strings
+    beg: 1189
+    end: 1201
+  -
+    name: Exclusive Items Strings
+    beg: 1201
+    end: 1207
+  -
+    name: Special Episode Item Handling Strings
+    beg: 1207
+    end: 1244
+  -
+    name: Demo Dungeon Strings
+    beg: 1244
+    end: 1261
+  -
+    name: Sky Jukebox Menu Strings
+    beg: 1261
+    end: 1277
+  -
+    name: Music Tracks
+    beg: 1277
+    end: 1418
+  -
+    name: Personality Quiz Questions
+    beg: 1418
+    end: 1485
+  -
+    name: Personality Quiz Answers
+    beg: 1485
+    end: 1660
+  -
+    name: Personality Quiz Results
+    beg: 1660
+    end: 1708
+  -
+    name: Personality Quiz Aura
+    beg: 1708
+    end: 1729
+  -
+    name: Partner Selection Strings
+    beg: 1729
+    end: 1735
+  -
+    name: New Game Welcome
+    beg: 1735
+    end: 1736
+  -
+    name: Personality Quiz Aura Finger Move
+    beg: 1736
+    end: 1737
+  -
+    name: Personality Quiz Debug (Breakdown)
+    beg: 1737
+    end: 1741
+  -
+    name: Personality Quiz Debug (Colored)
+    beg: 1741
+    end: 1751
+  -
+    name: Sentry Duty Strings
+    beg: 1751
+    end: 1782
+  -
+    name: Sentry Duty Hints
+    beg: 1782
+    end: 2186
+  -
+    name: Dungeon Item Usage (Basic)
+    beg: 2186
+    end: 2218
+  -
+    name: Dungeon Menu Strings (Primary)
+    beg: 2220
+    end: 2280
+  -
+    name: Dungeon Status Effect Strings
+    beg: 2280
+    end: 2382
+  -
+    name: Dungeon Menu Strings (Details)
+    beg: 2382
+    end: 2438
+  -
+    name: Dungeon Menu Strings (Secondary)
+    beg: 2438
+    end: 2506
+  -
+    name: Dungeon Defeated Dialog Strings
+    beg: 2506
+    end: 2592
+  -
+    name: Dungeon Cleared Dialog Strings
+    beg: 2592
+    end: 2613
+  -
+    name: Dungeon Item Usage (Bag)
+    beg: 2613
+    end: 2624
+  -
+    name: Weather Change Feedback
+    beg: 2628
+    end: 2636
+  -
+    name: Weather Names
+    beg: 2636
+    end: 2644
+  -
+    name: Floor-Wide Status
+    beg: 2644
+    end: 2674
+  -
+    name: Story Mission Objectives
+    beg: 2679
+    end: 2862
+  -
+    name: Mission Failure/Faint Strings
+    beg: 2862
+    end: 2878
+  -
+    name: Speed Change Feedback
+    beg: 2878
+    end: 2883
+  -
+    name: Dungeon Potential Recruit Strings
+    beg: 2883
+    end: 2887
+  -
+    name: Dungeon Gummi Feedback
+    beg: 2887
+    end: 2896
+  -
+    name: Traps Feedback (Primary)
+    beg: 2897
+    end: 2921
+  -
+    name: Nothing At Feet String
+    beg: 2921
+    end: 2922
+  -
+    name: Dungeon Friend Rescue Strings
+    beg: 2922
+    end: 2933
+  -
+    name: Dungeon General Feedback 1
+    beg: 2933
+    end: 2965
+  -
+    name: Dungeon General Feedback 2
+    beg: 2965
+    end: 3068
+  -
+    name: Something's Stirring Strings
+    beg: 3068
+    end: 3076
+  -
+    name: Dungeon General Feedback 3
+    beg: 3076
+    end: 3190
+  -
+    name: Dungeon New Recruit Strings
+    beg: 3190
+    end: 3201
+  -
+    name: Dungeon General Feedback 4
+    beg: 3201
+    end: 3206
+  -
+    name: Status Effect Resolved Feedback
+    beg: 3206
+    end: 3273
+  -
+    name: Status Effect Apply Feedback
+    beg: 3273
+    end: 3469
+  -
+    name: Pokemon Stats Change Feedback 1
+    beg: 3469
+    end: 3487
+  -
+    name: Status Effect Protect Feedback 1
+    beg: 3487
+    end: 3506
+  -
+    name: PP Recover Strings
+    beg: 3506
+    end: 3508
+  -
+    name: Conversion/Sketch Strings
+    beg: 3508
+    end: 3512
+  -
+    name: Status Effect Protect Feedback 2
+    beg: 3512
+    end: 3525
+  -
+    name: Dungeon Pokemon Stat Names
+    beg: 3525
+    end: 3532
+  -
+    name: Pokemon Stats Change Feedback 2
+    beg: 3532
+    end: 3548
+  -
+    name: Dungeon General Feedback 5
+    beg: 3548
+    end: 3587
+  -
+    name: Mission Feedback
+    beg: 3587
+    end: 3652
+  -
+    name: Dungeon General Feedback 6
+    beg: 3652
+    end: 3656
+  -
+    name: Kecleon Dungeon Shop Strings
+    beg: 3656
+    end: 3668
+  -
+    name: Anchored Feedback
+    beg: 3668
+    end: 3670
+  -
+    name: Traps Feedback (Secondary)
+    beg: 3670
+    end: 3701
+  -
+    name: Dungeon General Feedback 7
+    beg: 3701
+    end: 3859
+  -
+    name: Move Feedback (Primary)
+    beg: 3859
+    end: 3863
+  -
+    name: Dungeon Level Up Detail Strings
+    beg: 3863
+    end: 3888
+  -
+    name: Kirlia Secret Bazaar Strings
+    beg: 3888
+    end: 3890
+  -
+    name: Grab Bags Shop Strings
+    beg: 3890
+    end: 3902
+  -
+    name: Shedinja Shop Strings
+    beg: 3902
+    end: 3913
+  -
+    name: Mime Jr. Spa Strings
+    beg: 3913
+    end: 3923
+  -
+    name: Swalot's Shop Strings
+    beg: 3923
+    end: 3933
+  -
+    name: Team Tactics Menu Strings
+    beg: 3933
+    end: 3937
+  -
+    name: Item Became Sticky String
+    beg: 3937
+    end: 3938
+  -
+    name: Pokemon LEVEL_UP Dialogue
+    beg: 3940
+    end: 4285
+  -
+    name: Pokemon WAIT Dialogue
+    beg: 4285
+    end: 4630
+  -
+    name: Pokemon HEALTHY Dialogue
+    beg: 4630
+    end: 5740
+  -
+    name: Pokemon HALF_LIFE Dialogue
+    beg: 5740
+    end: 6085
+  -
+    name: Pokemon PINCH Dialogue
+    beg: 6085
+    end: 6430
+  -
+    name: Pokemon GROUND_WAIT Dialogue
+    beg: 6430
+    end: 6775
+  -
+    name: Item Names
+    beg: 6775
+    end: 8175
+  -
+    name: Move Names
+    beg: 8175
+    end: 8736
+  -
+    name: Pokemon Names
+    beg: 8736
+    end: 9336
+  -
+    name: Pokemon Categories
+    beg: 9336
+    end: 9936
+  -
+    name: Tactics Names
+    beg: 9936
+    end: 9947
+  -
+    name: Tactics Descriptions
+    beg: 9947
+    end: 9958
+  -
+    name: IQ Skills Names
+    beg: 9958
+    end: 10027
+  -
+    name: IQ Skills Descriptions
+    beg: 10027
+    end: 10096
+  -
+    name: Move Targets Strings
+    beg: 10096
+    end: 10128
+  -
+    name: Accuracy/Power Stars Ratings
+    beg: 10128
+    end: 10145
+  -
+    name: Always Hit/No Damage Strings
+    beg: 10145
+    end: 10147
+  -
+    name: Move Descriptions
+    beg: 10147
+    end: 10706
+  -
+    name: Item Long Descriptions
+    beg: 10706
+    end: 12106
+  -
+    name: Item Short Descriptions
+    beg: 12106
+    end: 13506
+  -
+    name: Trap Names
+    beg: 13506
+    end: 13531
+  -
+    name: Trap Descriptions
+    beg: 13531
+    end: 13556
+  -
+    name: Status Names and Descriptions
+    beg: 13556
+    end: 13762
+  -
+    name: Auxiliary Move Descriptions
+    beg: 13762
+    end: 13772
+  -
+    name: Type Names
+    beg: 13772
+    end: 13791
+  -
+    name: Ability Names
+    beg: 13791
+    end: 13915
+  -
+    name: Ability Descriptions
+    beg: 13915
+    end: 14039
+  -
+    name: Wireless Connection Strings
+    beg: 14039
+    end: 14068
+  -
+    name: Friend Code Strings
+    beg: 14068
+    end: 14123
+  -
+    name: Email Strings
+    beg: 14123
+    end: 14171
+  -
+    name: Wi-fi Connection Strings
+    beg: 14171
+    end: 14216
+  -
+    name: Wonder Mail S Strings
+    beg: 14216
+    end: 14263
+  -
+    name: Game Trade Strings
+    beg: 14263
+    end: 14345
+  -
+    name: Mission Board Strings
+    beg: 14345
+    end: 14378
+  -
+    name: SOS Mail Strings
+    beg: 14378
+    end: 14562
+  -
+    name: Mission Title Set Phrases
+    beg: 14562
+    end: 14878
+  -
+    name: Mission Description Set Phrases
+    beg: 14878
+    end: 15391
+  -
+    name: Mission Detail Strings
+    beg: 15391
+    end: 15417
+  -
+    name: Mission Objective Strings
+    beg: 15417
+    end: 15433
+  -
+    name: Debug Strings (Mission)
+    beg: 15433
+    end: 15461
+  -
+    name: Debug Strings (Switch)
+    beg: 15461
+    end: 15493
+  -
+    name: Debug Strings (Data)
+    beg: 15493
+    end: 15499
+  -
+    name: Debug Strings (Checks)
+    beg: 15499
+    end: 15507
+  -
+    name: Debug Strings (General)
+    beg: 15507
+    end: 15645
+  -
+    name: Debug Strings (Manipulation)
+    beg: 15645
+    end: 15650
+  -
+    name: Debug Strings (Testing)
+    beg: 15650
+    end: 15709
+  -
+    name: Debug Strings (Scripts)
+    beg: 15709
+    end: 15738
+  -
+    name: Debug Strings (Menu)
+    beg: 15738
+    end: 15973
+  -
+    name: Debug Strings (Status)
+    beg: 15973
+    end: 16053
+  -
+    name: Debug Strings (Dungeon 1)
+    beg: 16053
+    end: 16078
+  -
+    name: Portrait Names
+    beg: 16078
+    end: 16110
+  -
+    name: Debug Strings (Dungeon 2)
+    beg: 16110
+    end: 16122
+  -
+    name: Debug Strings (PKMN Storage)
+    beg: 16122
+    end: 16123
+  -
+    name: Debug Strings (Message)
+    beg: 16123
+    end: 16127
+  -
+    name: Debug Strings (Triggers)
+    beg: 16127
+    end: 16145
+  -
+    name: Debug Strings (Bulletin 1)
+    beg: 16145
+    end: 16159
+  -
+    name: Debug Strings (Bulletin 2)
+    beg: 16159
+    end: 16279
+  -
+    name: Debug Strings (Mail)
+    beg: 16279
+    end: 16284
+  -
+    name: Debug Strings (Name)
+    beg: 16284
+    end: 16285
+  -
+    name: Debug Strings (Parameters)
+    beg: 16285
+    end: 16294
+  -
+    name: Debug Strings (Counter)
+    beg: 16294
+    end: 16296
+  -
+    name: Game and Dungeon Hints
+    beg: 16296
+    end: 16362
+  -
+    name: Adventure Log Entries
+    beg: 16362
+    end: 16436
+  -
+    name: Ground Map Names
+    beg: 16436
+    end: 16566
+  -
+    name: Dungeon Names (Main)
+    beg: 16566
+    end: 16822
+  -
+    name: Dungeon Names (Selection)
+    beg: 16825
+    end: 17081
+  -
+    name: Dungeon Names (SetDungeonBanner)
+    beg: 17084
+    end: 17340
+  -
+    name: Dungeon Names (Banner)
+    beg: 17341
+    end: 17597
+  -
+    name: Staff Roll 1
+    beg: 17600
+    end: 17812
+  -
+    name: Special Mission Strings
+    beg: 17812
+    end: 17824
+  -
+    name: Super Hasbrello and Bidoof Family
+    beg: 17824
+    end: 17830
+  -
+    name: Spinda's Juice Bar Strings
+    beg: 17830
+    end: 17931
+  -
+    name: Recycle Shop Strings
+    beg: 17931
+    end: 17991
+  -
+    name: Staff Roll 2
+    beg: 17991
+    end: 18267
+  -
+    name: Staff Roll 3
+    beg: 18267
+    end: 18482
+  -
+    name: New Pokemon Names
+    beg: 18482
+    end: 20530
+  -
+    name: New Pokemon Categories
+    beg: 20530
+    end: 22578

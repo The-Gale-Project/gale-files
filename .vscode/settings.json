@@ -1,11 +1,19 @@
 {
     "[csharp]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            120 // Recommended line length for *.cs files.
+        ]
     },
     "cSpell.words": [
         "bitflags",
         "kecleon",
         "mappa",
+        "ppmdu",
         "tileset"
-    ]
+    ],
+    "cSpell.enabledFileTypes": {
+        "*": false,
+        "csharp": true
+    }
 }

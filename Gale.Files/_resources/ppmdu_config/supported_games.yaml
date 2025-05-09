@@ -1,0 +1,36 @@
+# List of supported editions of Explorers of Sky.
+# id              = Unique identifier for this version of the game.
+# gameCode        = The ROM's gameCode corresponding to the game version.
+# region          = The region where the game was sold. Either "NorthAmerica", "Europe", or "Japan".
+# arm9Magic       = The 16bits value in the arm9.bin at offset 0x0E. It differs between games, and won't be modded, so its used to find out what games the files belong to.
+# defaultLanguage = Default language to use when reading game files. For example Pokémon names will be read in english if this is "English".
+- 
+  id: EoS NA
+  gameCode: C2SE
+  region: NorthAmerica
+  arm9Magic: 0x271A
+  defaultLanguage: English
+-
+  id: EoS WVC NA
+  gameCode: C2SE
+  region: NorthAmerica
+  arm9Magic: 0x0854
+  defaultLanguage: English
+-
+  id: EoS EU
+  gameCode: C2SP
+  region: Europe
+  arm9Magic: 0x64AF
+  defaultLanguage: English
+-
+  id: EoS WVC EU
+  gameCode: C2SP
+  region: Europe
+  arm9Magic: 0x2773
+  defaultLanguage: English
+- 
+  id: EoS JP
+  gameCode: C2SJ
+  region: Japan
+  arm9Magic: 0x87B5
+  defaultLanguage: Japanese
