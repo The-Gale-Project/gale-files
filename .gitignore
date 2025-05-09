@@ -402,3 +402,6 @@ FodyWeavers.xsd
 
 # Allow project code snippets
 !.vscode/*.code-snippets
+
+# Never commit ROM files
+*.nds

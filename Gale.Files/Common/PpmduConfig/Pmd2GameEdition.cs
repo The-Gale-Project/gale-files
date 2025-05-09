@@ -35,6 +35,7 @@ public sealed class Pmd2GameEdition
     /// </summary>
     public string DefaultLanguage { get; private init; }
 
+    private Pmd2GameEdition() { }
 
     /// <summary>
     /// Loads the game editions supported by this library.
@@ -47,9 +48,7 @@ public sealed class Pmd2GameEdition
             "Gale.Files._resources.ppmdu_config.supported_games.yaml"
         );
 
-        IDeserializer deserializer = new DeserializerBuilder()
-            .WithNamingConvention(CamelCaseNamingConvention.Instance)
-            .Build();
+        IDeserializer deserializer = new DeserializerBuilder().Build();
 
         List<YamlDataModel> dataModel = deserializer.Deserialize<List<YamlDataModel>>(yamlContent);
         return [.. dataModel.Select(
@@ -66,12 +65,21 @@ public sealed class Pmd2GameEdition
         ];
     }
 
-    private class YamlDataModel
+    private sealed class YamlDataModel
     {
+        [YamlMember(Alias = "id")]
         public string Id { get; set; }
+
+        [YamlMember(Alias = "gameCode")]
         public string GameCode { get; set; }
+
+        [YamlMember(Alias = "region")]
         public string Region { get; set; }
+
+        [YamlMember(Alias = "arm9Magic")]
         public ushort Arm9Magic { get; set; }
+
+        [YamlMember(Alias = "defaultLanguage")]
         public string DefaultLanguage { get; set; }
     }
 }
